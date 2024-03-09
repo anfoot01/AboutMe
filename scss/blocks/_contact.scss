@@ -1,0 +1,79 @@
+.contact {
+    padding: 96rem 0;
+}
+
+.contact__desc {
+    margin-bottom: 52rem;
+    max-width: 685rem;
+    text-align: center;
+}
+
+
+.contact-row {
+    display: flex;
+    gap: 223rem;
+    @include decstop-small{
+        gap: 52rem;
+    }
+    @include tablet{
+        flex-direction: column;
+    }
+}
+
+.contact-info {
+    max-width: 347rem;
+    padding: 49rem;
+    @include tablet{
+        margin-inline: auto;
+    }
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 32rem;
+    @include tablet{
+        margin-inline: auto;
+    }
+}
+
+
+.field input{
+    background: rgb(31, 41, 55);
+    min-width: 540rem;
+    color: rgb(243, 244, 246);
+    font-family: Lexend Deca;
+    font-size: 16rem;
+    font-weight: 400;
+    @include mobile{
+        min-width: 380rem;
+    }
+}
+.field input::placeholder {
+    color: rgb(243, 244, 246);
+    font-family: Lexend Deca;
+    font-size: 16rem;
+    font-weight: 400;
+}
+.field-name input {
+    min-height: 63rem;
+}
+
+.field-message input {
+    min-height: 166rem;
+}
+.btn-contactUs{
+       max-width: 155rem;
+        border-radius: 4rem;
+        background: rgb(234, 179, 8);
+        color: rgb(0, 0, 0);
+        font-family: var(--second-family);
+        font-size: 16rem;
+        font-weight: 400;
+        line-height: 27rem;
+        padding: 16rem 20rem;
+      
+        @include tablet{
+            margin-inline: auto;
+        }
+}

@@ -1,0 +1,47 @@
+.service {
+    padding: 96rem 0;
+    &__desc {
+        @include tablet{
+            margin-inline: auto;
+        }
+    }
+   
+}
+
+.service-list {
+    margin-top: 59rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350rem, 1fr));
+    gap: 30rem;
+    @include mobile{
+        grid-template-columns: 1fr;
+    }
+}
+
+.service-item {
+    padding: 32px;
+    background: rgb(2, 6, 23);
+    border-radius: 12rem;
+    text-align: center;
+
+    &__img {
+        width: 40rem;
+        height: 40rem;
+        margin-inline: auto;
+        margin-bottom: 34rem;
+        color: rgb(234, 179, 8);
+    }
+
+    
+
+    &__desc {
+        color: rgb(107, 114, 128);
+        font-family: var(font-family);
+        font-size: 16rem;
+        font-weight: 400;
+        line-height: 27rem;
+        
+    }
+
+   
+}

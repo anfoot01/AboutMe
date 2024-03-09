@@ -1,0 +1,107 @@
+html {
+  font-size: 1px;
+
+  @include mobile {
+    font-size: 0.8px;
+  }
+
+  @include mobile-xs {
+    font-size: 0.6px;
+  }
+}
+
+body {
+  font-size: 16rem;
+  font-family: var(--font-family);
+
+  background: rgb(17, 24, 39);
+  color: #fff;
+}
+
+;
+
+
+.container {
+  padding: 0 20rem;
+  max-width: 1166rem;
+  margin-inline: auto;
+
+}
+
+img.icon {
+  max-width: 50rem;
+}
+
+.bg-dark {
+  background: rgb(2, 6, 23);
+}
+
+.title {
+  font-family: var(--font-family);
+  font-size: 42rem;
+  font-weight: 700;
+  line-height: 64rem;
+  color: rgb(243, 244, 246);
+  margin-bottom: 24rem;
+
+  @include tablet {
+    text-align: center;
+  }
+
+  span {
+    color: rgb(234, 179, 8);
+  }
+}
+
+.desc {
+  color: rgb(107, 114, 128);
+  font-family: var(--font-family);
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 27rem;
+  max-width: 461rem;
+  margin-bottom: 18rem;
+
+  @include tablet {
+    text-align: center;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mx-auto {
+  margin-inline: auto;
+}
+
+.btn {
+  border-radius: 4rem;
+  background: rgb(234, 179, 8);
+  color: rgb(0, 0, 0);
+  font-family: var(--second-family);
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 27rem;
+  padding: 16rem 20rem;
+
+  @include tablet {
+    text-align: center;
+  }
+}
+
+.contact-name {
+  font-family: Lexend Deca;
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 41rem;
+
+  @include mobile {
+    text-align: center;
+  }
+
+  span {
+    color: rgb(234, 179, 8);
+    font-weight: 700;
+  }
+}

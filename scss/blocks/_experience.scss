@@ -1,0 +1,76 @@
+.experience {
+    padding: 85rem 0;
+
+    &__desc {
+        max-width: 730rem;
+
+        @include tablet {
+            margin-inline: auto;
+        }
+    }
+
+    &__title {
+        font-family: Arvo;
+        font-size: 42rem;
+        font-weight: 700;
+        line-height: 64rem;
+    }
+
+}
+
+.experience-list {
+    margin-top: 29rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350rem, 1fr));
+    gap: 30rem;
+
+    @include mobile {
+        grid-template-columns: 1fr;
+    }
+}
+
+.experience-item {
+    padding: 32rem;
+    background: rgb(2, 6, 23);
+    border-radius: 12rem;
+    @include mobile {
+        text-align: center;
+    }
+    &__desc {
+        max-width: 286rem;
+        color: rgb(107, 114, 128);
+        font-family: var(font-family);
+        font-size: 16rem;
+        font-weight: 400;
+        line-height: 27rem;
+        @include mobile {
+            margin-inline: auto;
+        }
+    }
+
+    &__date {
+        color: rgb(209, 213, 219);
+        font-family: Lexend Deca;
+        font-size: 20rem;
+        font-weight: 400;
+        line-height: 27rem;
+    }
+
+    &__title {
+        color: rgb(234, 179, 8);
+        font-family: Lexend Deca;
+        font-size: 26rem;
+        font-weight: 700;
+        line-height: 41rem;
+        margin-bottom: 4rem;
+    }
+
+    &__app {
+        color: rgb(209, 213, 219);
+        font-family: Lexend Deca;
+        font-size: 16rem;
+        font-weight: 700;
+        line-height: 27rem;
+        margin-bottom: 16rem;
+    }
+}

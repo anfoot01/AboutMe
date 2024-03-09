@@ -1,0 +1,27 @@
+.footer{
+    padding: 96rem 0;
+}
+.footer__desc{
+   max-width: 685rem;
+   text-align: center;
+   margin-bottom: 56rem;
+}
+.footer-icon{
+    color:rgb(31, 41, 55);
+    max-width: 24rem;
+    max-height: 24rem;
+    
+}
+.footer-icon:hover{
+    color: rgb(234, 179, 8);
+}
+.get-in-touch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16rem;
+    @include mobile{
+        justify-content: space-between;
+        padding: 0 40rem;
+    }
+}
