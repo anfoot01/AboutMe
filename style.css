@@ -463,6 +463,10 @@ img.icon {
   }
 }
 
+.welcome__img-img {
+  border-radius: 24rem;
+}
+
 .experience {
   padding: 85rem 0;
 }

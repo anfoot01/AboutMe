@@ -54,9 +54,13 @@
     }
 
     &__img {
+        
         @include tablet {
             margin-inline: auto;
         }
+    }
+    &__img-img{
+        border-radius: 24rem;
     }
 
 }
