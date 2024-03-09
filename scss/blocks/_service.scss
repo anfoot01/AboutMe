@@ -1,11 +1,12 @@
 .service {
     padding: 96rem 0;
+
     &__desc {
-        @include tablet{
+        @include tablet {
             margin-inline: auto;
         }
     }
-   
+
 }
 
 .service-list {
@@ -13,16 +14,18 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350rem, 1fr));
     gap: 30rem;
-    @include mobile{
+
+    @include mobile {
         grid-template-columns: 1fr;
     }
 }
 
 .service-item {
-    padding: 32px;
+    padding: 32rem;
     background: rgb(2, 6, 23);
     border-radius: 12rem;
     text-align: center;
+    
 
     &__img {
         width: 40rem;
@@ -32,7 +35,17 @@
         color: rgb(234, 179, 8);
     }
 
-    
+    &__title {
+        color: rgb(243, 244, 246);
+        font-family: Lexend Deca;
+        font-size: 26rem;
+        font-weight: 700;
+        line-height: 41rem;
+        max-width: 186rem;
+        margin-inline: auto;
+        margin-bottom: 16rem;
+    }
+
 
     &__desc {
         color: rgb(107, 114, 128);
@@ -40,8 +53,8 @@
         font-size: 16rem;
         font-weight: 400;
         line-height: 27rem;
-        
+
     }
 
-   
+
 }

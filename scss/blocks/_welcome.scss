@@ -1,9 +1,10 @@
 .welcome {
     padding: 96rem 0;
 
-    &__info{
+    &__info {
         max-width: 466rem;
-        @include tablet{
+
+        @include tablet {
             max-width: 100%;
             text-align: center;
         }
@@ -17,7 +18,7 @@
         line-height: 27rem;
         margin-bottom: 24rem;
     }
-    
+
     &__title {
         color: rgb(243, 244, 246);
         font-family: Lexend Deca;
@@ -26,32 +27,36 @@
         line-height: 64rem;
         margin-bottom: 8rem;
     }
-    &__desc{
+
+    &__desc {
+        color: rgb(107, 114, 128);
+        font-family: var(--font-family);
+        font-size: 16rem;
+        font-weight: 400;
+        line-height: 27rem;
+        max-width: 461rem;
         margin-bottom: 24rem;
-        @include tablet{
-            margin-inline:auto ;
+
+        @include tablet {
+            margin-inline: auto;
             margin-bottom: 44rem;
         }
     }
 
-    &__container{
+    &__container {
         display: flex;
         gap: 199rem;
-        @include tablet{
+
+        @include tablet {
             flex-direction: column;
             gap: 80rem;
         }
     }
-    
-    &__img{
-        @include tablet{
-            margin-inline:auto ;
+
+    &__img {
+        @include tablet {
+            margin-inline: auto;
         }
     }
 
 }
-
-
-
-
-

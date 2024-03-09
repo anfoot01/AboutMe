@@ -51,16 +51,20 @@
 }
 .image-backdrop{
     position: absolute;
-    width: 497rem;
-    width: 100%;
-    aspect-ratio: 1;
+    width: 86%;
+    aspect-ratio: 1.1;
     background:  #000;
-    top: 23rem;
-    right: 35rem;
+    top: 33rem;
+    right: 105rem;
     box-sizing: border-box;
-    border: 16rem solid rgb(234, 179, 8);
+    border: 12rem solid rgb(234, 179, 8);
     border-radius: 24rem;
     @include mobile-xs{
         border: 8rem solid rgb(234, 179, 8);
+        right: 55rem;
      }
+     @include mobile{
+        border: 12rem solid rgb(234, 179, 8);
+     }
+
 }

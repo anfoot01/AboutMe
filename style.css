@@ -18,6 +18,14 @@ li {
   list-style: none;
 }
 
+button {
+  cursor: pointer;
+}
+
+input {
+  border: 0px solid;
+}
+
 :root {
   --font-family: Lexend Deca;
   --second-family: "Arvo" sans-serif;
@@ -44,6 +52,10 @@ body {
   font-family: var(--font-family);
   background: #111827;
   color: #fff;
+}
+
+* {
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -162,7 +174,7 @@ img.icon {
 }
 
 .service-item {
-  padding: 32px;
+  padding: 32rem;
   background: #020617;
   border-radius: 12rem;
   text-align: center;
@@ -174,6 +186,17 @@ img.icon {
   margin-inline: auto;
   margin-bottom: 34rem;
   color: #eab308;
+}
+
+.service-item__title {
+  color: #f3f4f6;
+  font-family: Lexend Deca;
+  font-size: 26rem;
+  font-weight: 700;
+  line-height: 41rem;
+  max-width: 186rem;
+  margin-inline: auto;
+  margin-bottom: 16rem;
 }
 
 .service-item__desc {
@@ -283,20 +306,26 @@ img.icon {
 
 .image-backdrop {
   position: absolute;
-  width: 497rem;
-  width: 100%;
-  aspect-ratio: 1;
+  width: 86%;
+  aspect-ratio: 1.1;
   background: #000;
-  top: 23rem;
-  right: 35rem;
+  top: 33rem;
+  right: 105rem;
   box-sizing: border-box;
-  border: 16rem solid #eab308;
+  border: 12rem solid #eab308;
   border-radius: 24rem;
 }
 
 @media screen and (max-width: 392px) {
   .image-backdrop {
     border: 8rem solid #eab308;
+    right: 55rem;
+  }
+}
+
+@media screen and (max-width: 592px) {
+  .image-backdrop {
+    border: 12rem solid #eab308;
   }
 }
 
@@ -400,6 +429,12 @@ img.icon {
 }
 
 .welcome__desc {
+  color: #6b7280;
+  font-family: var(--font-family);
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 27rem;
+  max-width: 461rem;
   margin-bottom: 24rem;
 }
 
