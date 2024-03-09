@@ -325,9 +325,10 @@ img.icon {
 .header__title {
   font-size: 24rem;
   font-weight: 700;
+  transition: .3s all ease-in-out;
 }
 
-.header__logo:hover {
+.header__title:hover {
   transform: scale(1.1);
 }
 
@@ -626,6 +627,7 @@ img.icon {
   color: #1f2937;
   max-width: 24rem;
   max-height: 24rem;
+  transition: .3s all ease-in-out;
 }
 
 .footer-icon:hover {
