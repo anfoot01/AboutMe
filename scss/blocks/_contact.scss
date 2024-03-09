@@ -1,12 +1,13 @@
 .contact {
     padding: 96rem 0;
+    &__desc {
+        margin-bottom: 52rem;
+        max-width: 685rem;
+        text-align: center;
+    }
 }
 
-.contact__desc {
-    margin-bottom: 52rem;
-    max-width: 685rem;
-    text-align: center;
-}
+
 
 
 .contact-row {

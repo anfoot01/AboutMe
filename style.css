@@ -188,19 +188,6 @@ img.icon {
   padding: 96rem 0;
 }
 
-.portfolio-list {
-  margin-top: 80rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(256rem, 1fr));
-  gap: 29rem;
-}
-
-@media screen and (max-width: 592px) {
-  .portfolio-list {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
 .portfolio__item img {
   width: 100%;
 }
@@ -211,6 +198,19 @@ img.icon {
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 3;
+  }
+}
+
+.portfolio-list {
+  margin-top: 80rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(256rem, 1fr));
+  gap: 29rem;
+}
+
+@media screen and (max-width: 592px) {
+  .portfolio-list {
+    grid-template-columns: 1fr 1fr;
   }
 }
 

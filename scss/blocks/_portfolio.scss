@@ -1,5 +1,19 @@
 .portfolio {
     padding: 96rem 0;
+    &__item {
+        img{
+            width: 100%;
+        }
+        @include decstop{
+            &:first-child{
+                grid-row-start: 1;
+                grid-row-end: 3;
+                grid-column-start: 1;
+                grid-column-end: 3;   
+            }
+        }
+      
+    }
 }
 
 .portfolio-list {
@@ -10,18 +24,4 @@
     @include mobile{
         grid-template-columns: 1fr 1fr;
     }
-}
-.portfolio__item {
-    img{
-        width: 100%;
-    }
-    @include decstop{
-        &:first-child{
-            grid-row-start: 1;
-            grid-row-end: 3;
-            grid-column-start: 1;
-            grid-column-end: 3;   
-        }
-    }
-  
 }
