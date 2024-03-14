@@ -2,6 +2,7 @@
     padding: 96rem;
     &__desc{
         margin-bottom: 40rem;
+        max-width: 628rem;
     }
     
     &__title{
@@ -13,8 +14,17 @@
             text-align: center;
          }
     }
+    &__btn{
+        margin-bottom: 0;
+        @include tablet{
+            margin-bottom: 32rem;
+        }
+    }
+    @include tablet{
+        padding-bottom: 188rem;
+    }
     @include mobile{
-        padding: 126rem;
+        padding: 188rem;
     }
     @include mobile-xs{
         padding: 156rem;

@@ -243,6 +243,7 @@ img.icon {
 
 .about__desc {
   margin-bottom: 40rem;
+  max-width: 628rem;
 }
 
 .about__title {
@@ -259,9 +260,25 @@ img.icon {
   }
 }
 
+.about__btn {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .about__btn {
+    margin-bottom: 32rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .about {
+    padding-bottom: 188rem;
+  }
+}
+
 @media screen and (max-width: 592px) {
   .about {
-    padding: 126rem;
+    padding: 188rem;
   }
 }
 
