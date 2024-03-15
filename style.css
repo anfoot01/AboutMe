@@ -676,6 +676,9 @@ img.icon {
 
 .hamburger {
   display: none;
+  border: none;
+  background: #eab308;
+  transform: translateY(-10rem);
 }
 
 .menuItem {
